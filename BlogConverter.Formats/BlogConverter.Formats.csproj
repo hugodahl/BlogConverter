@@ -29,13 +29,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Agnostic\Author.cs" />
-    <Compile Include="Agnostic\Category.cs" />
-    <Compile Include="Agnostic\Media.cs" />
-    <Compile Include="Agnostic\Blog.cs" />
-    <Compile Include="Agnostic\Page.cs" />
-    <Compile Include="Agnostic\Post.cs" />
-    <Compile Include="Agnostic\Tag.cs" />
     <Compile Include="Agnostic\Attributes\AuthorClassAttribute.cs" />
     <Compile Include="Agnostic\Attributes\BaseBlogSystemClassAttribute.cs" />
     <Compile Include="Agnostic\Attributes\BlogClassAttribute.cs" />
@@ -44,10 +37,18 @@
     <Compile Include="Agnostic\Attributes\MediaClassAttribute.cs" />
     <Compile Include="Agnostic\Attributes\PageClassAttribute.cs" />
     <Compile Include="Agnostic\Attributes\PostClassAttribute.cs" />
+    <Compile Include="Agnostic\Entities\Author.cs" />
+    <Compile Include="Agnostic\Entities\Blog.cs" />
+    <Compile Include="Agnostic\Entities\Category.cs" />
+    <Compile Include="Agnostic\Entities\Media.cs" />
+    <Compile Include="Agnostic\Entities\Page.cs" />
+    <Compile Include="Agnostic\Entities\Post.cs" />
+    <Compile Include="Agnostic\Entities\Tag.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Agnostic\" />
     <Folder Include="Agnostic\Attributes\" />
+    <Folder Include="Agnostic\Entities\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
 </Project>

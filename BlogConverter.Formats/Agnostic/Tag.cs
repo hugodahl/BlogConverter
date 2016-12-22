@@ -2,7 +2,7 @@ using System;
 namespace BlogConverter.Formats.Intermediate
 {
 
-  public class Tag
+  public class Tag : BaseBlogSystemEntity
   {
     
   }

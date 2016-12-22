@@ -2,9 +2,10 @@ using System;
 namespace BlogConverter.Formats.Intermediate
 {
 
-  public class Media
+  public sealed class Media : BaseBlogSystemEntity
   {
-    
+    public byte[] Data { get; set; } 
   }
+
 
 }

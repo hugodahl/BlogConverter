@@ -2,9 +2,10 @@ using System;
 namespace BlogConverter.Formats.Intermediate
 {
 
-  public class Post
+  public sealed class Post : BaseBlogSystemEntity
   {
-    
+    public int ID { get; private set;}  
   }
+
 
 }

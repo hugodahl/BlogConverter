@@ -41,5 +41,11 @@
   <ItemGroup>
     <Folder Include="BaseClasses\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BlogConverter.Formats\BlogConverter.Formats.csproj">
+      <Project>{7C3C95DF-FDF3-4F87-A0F3-39A01454F998}</Project>
+      <Name>BlogConverter.Formats</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
 </Project>

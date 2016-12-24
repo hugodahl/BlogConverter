@@ -31,7 +31,7 @@ namespace BlogConverter.Formats.Intermediate
     InProgress = 1,
     Success = 2,
     Failed = 3,
-    Other = 4;
+    Other = 4,
   }
 
 }

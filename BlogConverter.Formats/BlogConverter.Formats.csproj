@@ -44,11 +44,15 @@
     <Compile Include="Agnostic\Entities\Page.cs" />
     <Compile Include="Agnostic\Entities\Post.cs" />
     <Compile Include="Agnostic\Entities\Tag.cs" />
+    <Compile Include="BlogML\BlogML.Generated.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Agnostic\" />
     <Folder Include="Agnostic\Attributes\" />
     <Folder Include="Agnostic\Entities\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlogML\BlogML.xsd" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
 </Project>

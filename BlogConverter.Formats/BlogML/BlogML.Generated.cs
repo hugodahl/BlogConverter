@@ -934,7 +934,7 @@ namespace BlogConverter.BlogML.Native
 
     /// <remarks/>
     [System.Xml.Serialization.XmlElement("content", typeof(Content))]
-    public Content content
+    public Content Content
     {
       get
       {
@@ -962,7 +962,7 @@ namespace BlogConverter.BlogML.Native
 
     /// <remarks/>
     [System.Xml.Serialization.XmlElement("excerpt", typeof(Content))]
-    public Content excerpt
+    public Content Excerpt
     {
       get
       {
@@ -1036,7 +1036,7 @@ namespace BlogConverter.BlogML.Native
 
     /// <remarks/>
     [System.Xml.Serialization.XmlElement("authors", typeof(AuthorsReference))]
-    public AuthorsReference authors
+    public AuthorsReference Authors
     {
       get
       {

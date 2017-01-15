@@ -1,0 +1,61 @@
+<blog:blog date-created="2008-09-28T20:49:45" root-url="string" xmlns:blog="http://www.blogml.com/2006/09/BlogML">
+  <blog:title type="text">string</blog:title>
+  <blog:sub-title type="text">string</blog:sub-title>
+  <blog:authors>
+    <!--1 or more repetitions:-->
+    <blog:author id="string" date-created="2014-09-18T18:18:33" date-modified="2006-08-19T12:27:14-05:00" approved="true" email="string">
+      <blog:title type="text">string</blog:title>
+    </blog:author>
+  </blog:authors>
+  <!--Optional:-->
+  <blog:extended-properties>
+    <!--1 or more repetitions:-->
+    <blog:property name="string" value="string"/>
+  </blog:extended-properties>
+  <!--Optional:-->
+  <blog:categories>
+    <!--Zero or more repetitions:-->
+    <blog:category id="string" date-created="2009-05-16T07:42:28" date-modified="2003-08-08T19:18:37-05:00" approved="true" parentref="string" description="string">
+      <blog:title type="text">string</blog:title>
+    </blog:category>
+  </blog:categories>
+  <blog:posts>
+    <!--Zero or more repetitions:-->
+    <blog:post id="string" date-created="2012-09-13T08:00:34-05:00" date-modified="2009-10-14T02:16:36" approved="true" post-url="string" type="article" hasexcerpt="true" views="string">
+      <blog:title type="text">string</blog:title>
+      <blog:content type="text">string</blog:content>
+      <!--Optional:-->
+      <blog:post-name type="text">string</blog:post-name>
+      <!--Optional:-->
+      <blog:excerpt type="text">string</blog:excerpt>
+      <!--Optional:-->
+      <blog:categories>
+        <!--Zero or more repetitions:-->
+        <blog:category ref="string"/>
+      </blog:categories>
+      <!--Optional:-->
+      <blog:comments>
+        <!--Zero or more repetitions:-->
+        <blog:comment id="string" date-created="2014-10-27T04:44:59" date-modified="2013-06-17T12:14:58" approved="true" user-name="string" user-email="string" user-url="string">
+          <blog:title type="text">string</blog:title>
+          <blog:content type="text">string</blog:content>
+        </blog:comment>
+      </blog:comments>
+      <!--Optional:-->
+      <blog:trackbacks>
+        <!--Zero or more repetitions:-->
+        <blog:trackback id="string" date-created="2005-09-12T03:55:02-05:00" date-modified="2006-11-29T11:20:00" approved="true" url="string">
+          <blog:title type="text">string</blog:title>
+        </blog:trackback>
+      </blog:trackbacks>
+      <!--Optional:-->
+      <blog:attachments>
+        <!--Zero or more repetitions:-->
+        <blog:attachment embedded="false" mime-type="string" size="1.051732E7" external-uri="string" url="string">string</blog:attachment>
+      </blog:attachments>
+      <blog:authors>
+        <blog:author ref="string"/>
+      </blog:authors>
+    </blog:post>
+  </blog:posts>
+</blog:blog>

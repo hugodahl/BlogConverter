@@ -17,6 +17,8 @@ namespace BlogConverter.Formats.Intermediate
     public List<Page> Pages { get; private set; }
     public List<Tag> Tags { get; private set; }
 
+    public List<string> MappedDomainNames { get; private set;}
+
     public Blog()
     {
       this.Authors = new List<Author>();
@@ -24,6 +26,8 @@ namespace BlogConverter.Formats.Intermediate
       this.Posts = new List<Post>();
       this.Pages = new List<Page>();
       this.Tags = new List<Tag>();
+
+      this.MappedDomainNames = new List<string>();
     }
 
     public Blog(string domainName, string relativePath = "/") : this()

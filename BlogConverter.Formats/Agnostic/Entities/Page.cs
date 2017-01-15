@@ -2,9 +2,11 @@ using System;
 namespace BlogConverter.Formats.Intermediate
 {
 
-  public class Page : BaseBlogSystemEntity
+  public sealed class Page : BlogContent
   {
-    
+
+    public override string ContentType => "Page";
+ 
   }
 
 }

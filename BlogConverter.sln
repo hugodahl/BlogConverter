@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogConverter.Parsers", "BlogConverter.Parsers\BlogConverter.Parsers.csproj", "{2425CCF8-FD61-4BDF-82E3-AF3A3BADDEBB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogConverter.Connectors", "BlogConverter.Connectors\BlogConverter.Connectors.csproj", "{A7BFE1BE-E5FA-4A14-A9E7-84F60923528F}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "BlogConverter.Shared", "BlogConverter.Shared\BlogConverter.Shared.shproj", "{A63BB29D-B1FC-4F81-8052-56FC958CAD14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,5 +30,9 @@ Global
 		{2425CCF8-FD61-4BDF-82E3-AF3A3BADDEBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2425CCF8-FD61-4BDF-82E3-AF3A3BADDEBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2425CCF8-FD61-4BDF-82E3-AF3A3BADDEBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7BFE1BE-E5FA-4A14-A9E7-84F60923528F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7BFE1BE-E5FA-4A14-A9E7-84F60923528F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7BFE1BE-E5FA-4A14-A9E7-84F60923528F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7BFE1BE-E5FA-4A14-A9E7-84F60923528F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -40,3 +40,8 @@ Thumbs.db
 *.dotCover
 
 .idea/
+
+.vs/
+.vscode/
+
+project.lock.json

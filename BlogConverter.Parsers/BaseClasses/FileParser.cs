@@ -6,9 +6,9 @@ namespace BlogConverter.Parsers
   {
     public string FilePath { get; private set; }
 
-    public FileParser(string path) : this()
+    protected FileParser(string path) : this()
     {
-
+      this.FilePath = path;
     }
 
     private FileParser()

@@ -93,7 +93,7 @@ namespace BlogConverter.Parsers
     /// <summary>
     /// Initializes a new instance of the <see cref="T:BlogConverter.Parsers.BaseParser`2"/> class.
     /// </summary>
-    public  BaseParser()
+    protected  BaseParser()
     {
       this.Elements = new List<TInputDocumentType>();
     }

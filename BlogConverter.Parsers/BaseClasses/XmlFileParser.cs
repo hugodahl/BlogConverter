@@ -7,7 +7,7 @@ namespace BlogConverter.Parsers
   public abstract class XmlFileParser : FileParser<XDocument, XElement>
   {
 
-    public XmlFileParser(string path) : base(path)
+    protected XmlFileParser(string path) : base(path)
     {
       
     }

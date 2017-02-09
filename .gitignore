@@ -44,4 +44,8 @@ Thumbs.db
 .vs/
 .vscode/
 
+
 project.lock.json
+
+#dotnet 1.0.0 RC4 migrate data
+backup/

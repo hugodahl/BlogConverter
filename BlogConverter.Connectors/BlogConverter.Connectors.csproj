@@ -32,6 +32,7 @@
     <Compile Include="WordpressAPIV2.cs" />
     <Compile Include="BlogConnector.cs" />
     <Compile Include="BlogConnection.cs" />
+    <Compile Include="XmlRpcConnector.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="project.json" />

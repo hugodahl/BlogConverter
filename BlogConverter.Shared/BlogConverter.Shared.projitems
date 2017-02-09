@@ -11,4 +11,9 @@
   <ItemGroup>
     <None Include="$(MSBuildThisFileDirectory)AssemblyInfo.Common.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)ReferenceXMLNamespaces.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)XMLNamespaceDefinition.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Namespaces.cs" />
+  </ItemGroup>
 </Project>

@@ -1,9 +1,9 @@
 ﻿using System;
 namespace BlogConverter.Connectors
 {
-  public class MetaWeblog : XmlRpcConnector
+  public class XmlRpcConnector : BlogConnector
   {
-    public MetaWeblog()
+    public XmlRpcConnector()
     {
     }
 
@@ -17,6 +17,4 @@ namespace BlogConverter.Connectors
       throw new NotImplementedException();
     }
   }
-
-
 }
